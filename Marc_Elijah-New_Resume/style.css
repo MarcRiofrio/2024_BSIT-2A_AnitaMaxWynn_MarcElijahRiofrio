@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  background-color: aqua;
+}
+.photo-container {
+  /* border: 10px solid transparent;
+  padding: 15px;
+  border-radius: 20px; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-color: #252d5d;
+}
+.photo-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid rgb(174, 166, 166);
+}
+.about{
+    content: bottom;
+}
